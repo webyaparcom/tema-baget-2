@@ -1,0 +1,93 @@
+<section class="modulex-iletisim-siparis-hat{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-iletisim-siparis-hat-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* iletisim-siparis-hat — iletisim-telefon-odak numarayı düz dolu manşet olarak verir, iletisim-buyuk-numara konturlu afiştir; bu modül NEON TABELA: çerçevede box-shadow kesintili titreme keyframes'i (opaklık değil gölge), numarada ışıltı katmanları ve hover'da parlama, WhatsApp sipariş düğmesi ayrı, öteki kanallar noktalı öncülü menü panosu satırları. */
+  .modulex-iletisim-siparis-hat { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-iletisim-siparis-hat *, .modulex-iletisim-siparis-hat *::before, .modulex-iletisim-siparis-hat *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-iletisim-siparis-hat :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-iletisim-siparis-hat :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-iletisim-siparis-hat :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-iletisim-siparis-hat :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-iletisim-siparis-hat img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-iletisim-siparis-hat) img { height: auto; }
+  .modulex-iletisim-siparis-hat [hidden] { display: none !important; }
+  .modulex-iletisim-siparis-hat :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-iletisim-siparis-hat :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-iletisim-siparis-hat-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-iletisim-siparis-hat-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-iletisim-siparis-hat--bassiz .modulex-iletisim-siparis-hat-bas { display: none; }
+  .modulex-iletisim-siparis-hat-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-iletisim-siparis-hat-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-iletisim-siparis-hat-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-iletisim-siparis-hat-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-iletisim-siparis-hat-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-iletisim-siparis-hat-dugme:hover { transform: translateY(-2px); }
+  .modulex-iletisim-siparis-hat-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-iletisim-siparis-hat-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-iletisim-siparis-hat-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-iletisim-siparis-hat-sp-tabela { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+  .modulex-iletisim-siparis-hat-sp-tabela--tek { grid-template-columns: minmax(0, 1fr); }
+  .modulex-iletisim-siparis-hat-sp-sol { display: grid; gap: 14px; min-width: 0; }
+  .modulex-iletisim-siparis-hat-sp-marka { justify-self: start; padding: 6px 14px; border: 1.5px solid --accent--; border-radius: 6px; color: --accentInk--; font-size: 0.85rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; }
+  .modulex-iletisim-siparis-hat-sp-neon { display: grid; justify-items: center; gap: 16px; min-width: 0; padding-block: clamp(26px, 4vw, 44px); padding-inline: clamp(16px, 3vw, 34px); border: 3px solid --accent--; border-radius: 28px; text-align: center; box-shadow: 0 0 14px color-mix(in srgb, --accent-- 55%, transparent), inset 0 0 18px color-mix(in srgb, --accent-- 35%, transparent); animation: modulex-iletisim-siparis-hat-sp-yan 7s linear infinite; }
+  @keyframes modulex-iletisim-siparis-hat-sp-yan { 0%, 18%, 22%, 61%, 65%, 100% { box-shadow: 0 0 14px color-mix(in srgb, --accent-- 55%, transparent), inset 0 0 18px color-mix(in srgb, --accent-- 35%, transparent); } 20%, 63% { box-shadow: 0 0 3px color-mix(in srgb, --accent-- 25%, transparent), inset 0 0 4px color-mix(in srgb, --accent-- 15%, transparent); } }
+  .modulex-iletisim-siparis-hat-sp-netk { display: inline-flex; align-items: center; gap: 8px; color: --muted--; font-size: 0.85rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-iletisim-siparis-hat-sp-nik { color: --accentInk--; font-size: 22px; animation: modulex-iletisim-siparis-hat-sp-titre 1.4s ease-in-out infinite; }
+  @keyframes modulex-iletisim-siparis-hat-sp-titre { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-10deg); } 75% { transform: rotate(10deg); } }
+  .modulex-iletisim-siparis-hat-sp-numara { max-inline-size: 100%; color: --text--; font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 5.2vw, 3.6rem); font-weight: 800; letter-spacing: 0.02em; line-height: 1.1; text-decoration: none; overflow-wrap: anywhere; text-shadow: 0 0 6px color-mix(in srgb, --accent-- 80%, transparent), 0 0 20px color-mix(in srgb, --accent-- 55%, transparent), 0 0 44px color-mix(in srgb, --accent-- 40%, transparent); transition: text-shadow 0.3s ease; }
+  .modulex-iletisim-siparis-hat-sp-numara:hover { text-shadow: 0 0 10px --accent--, 0 0 30px color-mix(in srgb, --accent-- 70%, transparent), 0 0 60px color-mix(in srgb, --accent-- 50%, transparent); }
+  .modulex-iletisim-siparis-hat-sp-wa { flex-wrap: wrap; justify-content: center; max-inline-size: 100%; }
+  .modulex-iletisim-siparis-hat-sp-wa bdi { font-weight: 650; }
+  .modulex-iletisim-siparis-hat-sp-pano { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 4px 40px; margin-block-start: clamp(28px, 4vw, 44px); padding-block-start: 22px; border-block-start: 2px dashed --cizgi--; }
+  .modulex-iletisim-siparis-hat-sp-satir { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-width: 0; padding-block: 12px; }
+  .modulex-iletisim-siparis-hat-sp-sik { align-self: center; color: --accentInk--; font-size: 20px; }
+  .modulex-iletisim-siparis-hat-sp-cizgi { flex: 1 1 30px; min-inline-size: 20px; border-block-end: 2px dotted --cizgi--; }
+  .modulex-iletisim-siparis-hat-sp-saat { font-weight: 700; }
+  @media (max-width: 1024px) {
+    .modulex-iletisim-siparis-hat-sp-tabela { grid-template-columns: minmax(0, 1fr); }
+  }
+  .modulex-iletisim-siparis-hat-kikon { flex: none; display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: color-mix(in srgb, --accent-- 14%, transparent); color: --accentInk--; font-size: 24px; }
+  .modulex-iletisim-siparis-hat-ketiket { display: block; color: --muted--; font-size: 0.82rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; }
+  .modulex-iletisim-siparis-hat-deger { color: inherit; font-weight: 650; text-decoration: none; overflow-wrap: anywhere; transition: color 0.2s ease; }
+  a.modulex-iletisim-siparis-hat-deger:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-iletisim-siparis-hat-eylem { display: inline-flex; align-items: center; gap: 6px; color: --accentInk--; font-weight: 700; text-decoration: none; transition: gap 0.2s ease; }
+  .modulex-iletisim-siparis-hat-eylem:hover { gap: 10px; }
+  .modulex-iletisim-siparis-hat-eylem .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-siparis-hat-kopya { display: none; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: --text--; font: inherit; font-size: 0.85rem; font-weight: 650; transition: border-color 0.2s ease, background 0.2s ease; }
+  .modulex-iletisim-siparis-hat--kjs .modulex-iletisim-siparis-hat-kopya { display: inline-flex; }
+  .modulex-iletisim-siparis-hat-kopya:hover { border-color: --accent--; }
+  .modulex-iletisim-siparis-hat-kopya .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-siparis-hat--kopyalandi { background: color-mix(in srgb, --accent-- 14%, transparent); }
+  .modulex-iletisim-siparis-hat-sosyal { display: grid; gap: 10px; }
+  .modulex-iletisim-siparis-hat-sbaslik { color: --muted--; font-size: 0.9rem; font-weight: 650; }
+  .modulex-iletisim-siparis-hat-sliste { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-iletisim-siparis-hat-cip { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 8px 14px; border: 1px solid --cizgi--; border-radius: 999px; color: inherit; font-weight: 650; text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .modulex-iletisim-siparis-hat-cip:hover { border-color: --accent--; transform: translateY(-2px); }
+  .modulex-iletisim-siparis-hat-cikon { font-size: 18px; }
+  .modulex-iletisim-siparis-hat-harita { position: relative; overflow: hidden; min-height: 280px; border-radius: --yuvarlak--; background: --kartBg--; }
+  .modulex-iletisim-siparis-hat-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .modulex-iletisim-siparis-hat-hdesen { position: absolute; inset: 0; display: grid; place-items: center; background-color: color-mix(in srgb, --accent-- 8%, --kartBg--); background-image: linear-gradient(color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), radial-gradient(circle at 30% 40%, color-mix(in srgb, --accent-- 18%, transparent) 0 18%, transparent 19%); background-size: 36px 36px, 36px 36px, 100% 100%; }
+  .modulex-iletisim-siparis-hat-pin { color: --accentInk--; font-size: 56px; animation: modulex-iletisim-siparis-hat-zipla 2.4s ease-in-out infinite; }
+  @keyframes modulex-iletisim-siparis-hat-zipla { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .modulex-iletisim-siparis-hat-hyol { position: absolute; inset-block-end: 16px; inset-inline-start: 16px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 16px; border-radius: 999px; background: --bg--; color: --text--; font-weight: 700; text-decoration: none; box-shadow: 0 6px 20px color-mix(in srgb, --text-- 16%, transparent); transition: transform 0.2s ease; }
+  .modulex-iletisim-siparis-hat-hyol:hover { transform: translateY(-2px); }
+  .modulex-iletisim-siparis-hat-hyol .material-symbols-outlined { font-size: 18px; color: --accentInk--; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-siparis-hat :is(.modulex-iletisim-siparis-hat-baslik, .modulex-iletisim-siparis-hat-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-siparis-hat-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-iletisim-siparis-hat { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-iletisim-siparis-hat *, .modulex-iletisim-siparis-hat *::before, .modulex-iletisim-siparis-hat *::after { animation: none !important; transition: none !important; }
+  }
+</style>

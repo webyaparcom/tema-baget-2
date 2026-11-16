@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "ovd23ol51d",
+      "name": {
+        "tr": "Menü",
+        "en": "Menu",
+        "ar": "القائمة"
+      },
+      "description": {
+        "tr": "Tabaklar, menüler ve kutular; kurgusal fiyatlar.",
+        "en": "Plates, menus and boxes; fictional prices.",
+        "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية."
+      },
+      "path": "hizmetler",
+      "icon": "restaurant_menu",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "liob4m",
+          "tsuepk"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Fırın",
+        "en": "Bakery",
+        "ar": "المخبز"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "umiotd",
+          "q0m0kg"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Fırın sırası saatleri ve tezgâh defteri.",
+        "en": "Bake-queue hours and the counter book.",
+        "ar": "ساعات طابور الفرن ودفتر الركن."
+      }
+    },
+    {
+      "id": "o8p3u3ft2z",
+      "name": {
+        "tr": "Yorumlar",
+        "en": "Reviews",
+        "ar": "التقييمات"
+      },
+      "description": {
+        "tr": "Misafir yorumları ve fırının yanıtları (kurgusal).",
+        "en": "Guest reviews and the bakery’s replies (fictional).",
+        "ar": "تقييمات الضيوف وردود المخبز (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "q0m0kg",
+          "tsuepk"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "et873yyx03",
+      "name": {
+        "tr": "Sipariş",
+        "en": "Order",
+        "ar": "الطلب"
+      },
+      "description": {
+        "tr": "Adisyonlu WhatsApp siparişi (demo).",
+        "en": "WhatsApp ordering with a slip (demo).",
+        "ar": "طلب عبر واتساب بقسيمة (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "takeout_dining",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "tsuepk",
+          "hejf94"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "hejf94",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

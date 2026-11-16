@@ -1,0 +1,40 @@
+{
+  "id": "et873yyx03",
+  "name": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "description": {
+    "tr": "Adisyonlu WhatsApp siparişi (demo).",
+    "en": "WhatsApp ordering with a slip (demo).",
+    "ar": "طلب عبر واتساب بقسيمة (تجريبي)."
+  },
+  "keyword": {
+    "tr": "sipariş",
+    "en": "order",
+    "ar": "طلب"
+  },
+  "path": "teklif-al",
+  "icon": "takeout_dining",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "tsuepk",
+      "hejf94"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "date": "2026-11-16T18:02:01.237Z",
+  "update": "2026-11-16T18:05:23.915Z"
+}

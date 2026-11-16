@@ -1,0 +1,40 @@
+{
+  "id": "ovd23ol51d",
+  "name": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "description": {
+    "tr": "Tabaklar, menüler ve kutular; kurgusal fiyatlar.",
+    "en": "Plates, menus and boxes; fictional prices.",
+    "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية."
+  },
+  "keyword": {
+    "tr": "menü, fiyat",
+    "en": "menu, prices",
+    "ar": "قائمة، أسعار"
+  },
+  "path": "hizmetler",
+  "icon": "restaurant_menu",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "liob4m",
+      "tsuepk"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "date": "2026-11-16T18:02:01.218Z",
+  "update": "2026-11-16T18:05:23.904Z"
+}

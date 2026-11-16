@@ -1,0 +1,57 @@
+{
+  "name": "İletişim Sipariş Hattı — neon tabelada dev sipariş numarası, WhatsApp sipariş düğmesi",
+  "description": "Koyu zeminde iki yan: bir yanda çerçeveli marka levhası, üst etiket, başlık ve metin; öbür yanda neon tabela: titreyerek yanan çerçeve, sallanan telefon ikonuyla etiket, ışıltılı (çok katmanlı text-shadow) dev sipariş numarası ve altında WhatsApp sipariş düğmesi (numarasıyla). Altta kesikli çizginin ardında menü panosu satırları: adres, çalışma saatleri (aralıklar <bdi>), e-posta — etiket · noktalı çizgi · değer. iletisim-telefon-odak numarayı düz dolu manşet olarak verir, iletisim-buyuk-numara konturlu afiştir; bu modül NEON TABELA: çerçevede box-shadow kesintili titreme keyframes'i (opaklık değil gölge), numarada ışıltı katmanları ve hover'da parlama, WhatsApp sipariş düğmesi ayrı, öteki kanallar noktalı öncülü menü panosu satırları. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "takeout_dining",
+  "category": "contact",
+  "subCategory": "order-neon",
+  "tags": [
+    "contact",
+    "order",
+    "neon",
+    "phone-hero",
+    "whatsapp",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "adres": "",
+    "telefon": "",
+    "eposta": "",
+    "whatsapp": "",
+    "saat": "",
+    "haritaUrl": "",
+    "haritaGomme": "",
+    "waMesaj": "",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing",
+    "alanlar": {
+      "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+      "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+      "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+      "baslik": "dil sözlüğü (kanal etiketi)"
+    }
+  }
+}

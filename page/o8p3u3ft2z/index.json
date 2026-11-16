@@ -1,0 +1,40 @@
+{
+  "id": "o8p3u3ft2z",
+  "name": {
+    "tr": "Yorumlar",
+    "en": "Reviews",
+    "ar": "التقييمات"
+  },
+  "description": {
+    "tr": "Misafir yorumları ve fırının yanıtları (kurgusal).",
+    "en": "Guest reviews and the bakery’s replies (fictional).",
+    "ar": "تقييمات الضيوف وردود المخبز (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "q0m0kg",
+      "tsuepk"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Yorumlar",
+    "en": "Reviews",
+    "ar": "التقييمات"
+  },
+  "date": "2026-11-16T18:02:01.228Z",
+  "update": "2026-11-16T18:05:23.912Z"
+}
