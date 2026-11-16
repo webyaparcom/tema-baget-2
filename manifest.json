@@ -1,0 +1,29 @@
+{
+  "name": "Somunhane",
+  "short_name": "Somunhane",
+  "description": "Somunhane: Gaziantep’te taş fırın baget, sabah tabağı ve ofis kutusu. Tahtadaki fiyatlar, fırın sırası saatleri ve WhatsApp sipariş. Demo site; içerik kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2F7378",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

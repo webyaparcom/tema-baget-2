@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Somunhane: Gaziantep’te taş fırın baget, sabah tabağı ve ofis kutusu. Tahtadaki fiyatlar, fırın sırası saatleri ve WhatsApp sipariş. Demo site; içerik kurgusaldır.",
+    "en": "Somunhane: stone-oven baguettes, breakfast plates and office boxes in Gaziantep. Prices on the board, bake-queue hours and WhatsApp ordering. Demo site; content is fictional.",
+    "ar": "سومون خانه: باغيت من الفرن الحجري وأطباق فطور وصناديق للمكاتب في غازي عنتاب. أسعار على اللوح وساعات طابور الفرن وطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "fırın, baget, sandviç, sabah kahvaltısı, ofis kutusu, Gaziantep",
+    "en": "bakery, baguette, sandwich, breakfast, office box, Gaziantep",
+    "ar": "مخبز، باغيت، ساندويتش، فطور، صندوق مكتب، غازي عنتاب"
+  },
+  "category": "Kurumsal",
+  "name": "Somunhane",
+  "domain": "baget-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-naskh-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#2F7378",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}
