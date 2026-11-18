@@ -4,12 +4,16 @@
   "description": {
     "tr": "Somunhane: Gaziantep’te taş fırın baget, sabah tabağı ve ofis kutusu. Tahtadaki fiyatlar, fırın sırası saatleri ve WhatsApp sipariş. Demo site; içerik kurgusaldır.",
     "en": "Somunhane: stone-oven baguettes, breakfast plates and office boxes in Gaziantep. Prices on the board, bake-queue hours and WhatsApp ordering. Demo site; content is fictional.",
-    "ar": "سومون خانه: باغيت من الفرن الحجري وأطباق فطور وصناديق للمكاتب في غازي عنتاب. أسعار على اللوح وساعات طابور الفرن وطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "سومون خانه: باغيت من الفرن الحجري وأطباق فطور وصناديق للمكاتب في غازي عنتاب. أسعار على اللوح وساعات طابور الفرن وطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Somunhane: Steinofen-Baguette, Morgenteller und Büro-Box in Gaziantep. Preise auf der Tafel, Backzeiten der Reihe nach und Bestellung per WhatsApp. Demo-Website; Inhalte sind fiktiv.",
+    "ru": "Somunhane: багет из каменной печи, утренняя тарелка и офисный бокс в Газиантепе. Цены на доске, часы выпечки по порядку и заказ через WhatsApp. Демо-сайт; содержание условное."
   },
   "keyword": {
     "tr": "fırın, baget, sandviç, sabah kahvaltısı, ofis kutusu, Gaziantep",
     "en": "bakery, baguette, sandwich, breakfast, office box, Gaziantep",
-    "ar": "مخبز، باغيت، ساندويتش، فطور، صندوق مكتب، غازي عنتاب"
+    "ar": "مخبز، باغيت، ساندويتش، فطور، صندوق مكتب، غازي عنتاب",
+    "de": "Bäckerei, Baguette, Sandwich, Frühstück am Morgen, Büro-Box, Gaziantep",
+    "ru": "пекарня, багет, сэндвич, утренний завтрак, офисный бокс, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Somunhane",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

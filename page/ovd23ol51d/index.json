@@ -3,17 +3,23 @@
   "name": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "description": {
     "tr": "Tabaklar, menüler ve kutular; kurgusal fiyatlar.",
     "en": "Plates, menus and boxes; fictional prices.",
-    "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية."
+    "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية.",
+    "de": "Teller, Menüs und Boxen; fiktive Preise.",
+    "ru": "Тарелки, меню и коробки; вымышленные цены."
   },
   "keyword": {
     "tr": "menü, fiyat",
     "en": "menu, prices",
-    "ar": "قائمة، أسعار"
+    "ar": "قائمة، أسعار",
+    "de": "Menü, Preis",
+    "ru": "меню, цена"
   },
   "path": "hizmetler",
   "icon": "restaurant_menu",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "date": "2026-11-16T18:02:01.218Z",
   "update": "2026-11-16T18:05:23.904Z"

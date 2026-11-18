@@ -5,12 +5,16 @@
       "name": {
         "tr": "Menü",
         "en": "Menu",
-        "ar": "القائمة"
+        "ar": "القائمة",
+        "de": "Menü",
+        "ru": "Меню"
       },
       "description": {
         "tr": "Tabaklar, menüler ve kutular; kurgusal fiyatlar.",
         "en": "Plates, menus and boxes; fictional prices.",
-        "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية."
+        "ar": "أطباق وقوائم وصناديق؛ أسعار افتراضية.",
+        "de": "Teller, Menüs und Boxen; fiktive Preise.",
+        "ru": "Тарелки, меню и коробки; вымышленные цены."
       },
       "path": "hizmetler",
       "icon": "restaurant_menu",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Fırın",
         "en": "Bakery",
-        "ar": "المخبز"
+        "ar": "المخبز",
+        "de": "Bäckerei",
+        "ru": "Пекарня"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "Fırın sırası saatleri ve tezgâh defteri.",
         "en": "Bake-queue hours and the counter book.",
-        "ar": "ساعات طابور الفرن ودفتر الركن."
+        "ar": "ساعات طابور الفرن ودفتر الركن.",
+        "de": "Backwarteschlangen-Zeiten und das Tresenbuch.",
+        "ru": "Часы очереди на выпечку и журнал прилавка."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Yorumlar",
         "en": "Reviews",
-        "ar": "التقييمات"
+        "ar": "التقييمات",
+        "de": "Bewertungen",
+        "ru": "Отзывы"
       },
       "description": {
         "tr": "Misafir yorumları ve fırının yanıtları (kurgusal).",
         "en": "Guest reviews and the bakery’s replies (fictional).",
-        "ar": "تقييمات الضيوف وردود المخبز (افتراضية)."
+        "ar": "تقييمات الضيوف وردود المخبز (افتراضية).",
+        "de": "Gästebewertungen und Antworten der Bäckerei (fiktiv).",
+        "ru": "Отзывы гостей и ответы пекарни (вымышленные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -85,12 +97,16 @@
       "name": {
         "tr": "Sipariş",
         "en": "Order",
-        "ar": "الطلب"
+        "ar": "الطلب",
+        "de": "Bestellung",
+        "ru": "Заказ"
       },
       "description": {
         "tr": "Adisyonlu WhatsApp siparişi (demo).",
         "en": "WhatsApp ordering with a slip (demo).",
-        "ar": "طلب عبر واتساب بقسيمة (تجريبي)."
+        "ar": "طلب عبر واتساب بقسيمة (تجريبي).",
+        "de": "WhatsApp-Bestellung mit Bon (Demo).",
+        "ru": "Заказ через WhatsApp со счётом (демо)."
       },
       "path": "teklif-al",
       "icon": "takeout_dining",
@@ -110,7 +126,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -131,7 +149,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],

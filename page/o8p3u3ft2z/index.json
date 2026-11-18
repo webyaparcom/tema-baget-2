@@ -3,17 +3,23 @@
   "name": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "description": {
     "tr": "Misafir yorumları ve fırının yanıtları (kurgusal).",
     "en": "Guest reviews and the bakery’s replies (fictional).",
-    "ar": "تقييمات الضيوف وردود المخبز (افتراضية)."
+    "ar": "تقييمات الضيوف وردود المخبز (افتراضية).",
+    "de": "Gästebewertungen und Antworten der Bäckerei (fiktiv).",
+    "ru": "Отзывы гостей и ответы пекарни (вымышленные)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "date": "2026-11-16T18:02:01.228Z",
   "update": "2026-11-16T18:05:23.912Z"
